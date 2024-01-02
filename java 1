@@ -1,0 +1,32 @@
+class Main {
+  public static void main(final String[] args) {
+  
+    final String firstName = "faten";
+    final String lastName = "aldousari";
+    final int age = 25;
+    final double amount1 = 100.9;
+     System.out.println(firstName);
+    System.out.println(lastName);
+    System.out.println(age);
+    System.out.println(amount1);
+    final boolean isMarried = false;
+    System.out.println(isMarried);
+    final double amount = 20;
+    final String deposit = "deposit";
+    final String withdraw = "withdraw";
+    System.out.println("the amount is " + amount);
+    System.out.println("would you like to  " + deposit + " or " + withdraw + "?");;
+    final int amount2 = 5;
+   
+    
+    System.out.println("5 plus 5 makes " + amount2);
+    String txt ="aldousari";
+    System.out.println("my name is faten and my last neme length is " + txt.length());
+    boolean isAFirstChar = true;
+    System.out.println(isAFirstChar);
+    double amountKWD = 86;
+    double amountUSD = amountKWD * 3.75;
+    System.out.println(amountKWD + "KWD = " + amountUSD + "USD"); 
+    double amountUSD2 = 86;
+    double amountKWD2 = amountUSD2 / 3.75;
+    System.out.println(amountUSD2 + "USD = " + amountKWD2 + "KWD");
